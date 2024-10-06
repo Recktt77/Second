@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="test.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="add-container">
+            <div class="addition">
+                <input type="text" id="activity">
+                <button id="submit">Submit</button>
+            </div>
+            <div class="chousing">
+                <label for="Active">Active</label>
+                <input type="radio" name="radio" id="Active" value="Active">
+                <label for="Onhold">Onhold</label>
+                <input type="radio" name="radio" id="Onhold" value="Onhold">
+                <label for="Finished">Finished</label>
+                <input type="radio" name="radio" id="Finished" value="Finished">
+                <label for="Canseled">Canseled</label>
+                <input type="radio" name="radio" id="Canseled" value="Canseled">
+            </div>
+        </div>
+        <div class="lists">
+            <div class="list list-Active"  id="Active1">
+                <h3>Active</h3>
+            </div>
+            <div class="list list-Onhold" id="Onhold1">
+                <h3>Onhold</h3>
+            </div>
+            <div class="list list-Finished" id="Finished1">
+                <h3>Finished</h3>
+            </div>
+            <div class="list list-Canseled" id="Canseled1">
+                <h3>Canseled</h3>
+            </div>            
+        </div>
+    </div>
+
+</body>
+</html>

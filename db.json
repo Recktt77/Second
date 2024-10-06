@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "first",
+      "status": "Onhold"
+    },
+    {
+      "id": "2",
+      "title": "second",
+      "status": "Onhold"
+    },
+    {
+      "id": "4",
+      "title": "hop",
+      "status": "Finished"
+    },
+    {
+      "id": "5",
+      "title": "one",
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "title": "action",
+      "status": "Canseled"
+    },
+    {
+      "id": "7",
+      "title": "nomore",
+      "status": "Active"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
